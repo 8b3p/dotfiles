@@ -575,7 +575,12 @@ end)
 beautiful.useless_gap = 5
 
 -- Autostart
-awful.spawn.with_shell("nitrogen --restore --set-zoom-fill")
+
+awful.spawn.with_shell("feh --bg-fill --randomize ~/Pictures/backgrounds")
+awful.spawn.with_shell("kmix")
+awful.spawn.with_shell("nm-applet")
+awful.spawn.with_shell("whatsie")
+awful.spawn.with_shell("discord")
 awful.spawn.with_shell("picom --config ~/.config/picom/picom.conf")
 
 -- Autostart gnome-keyring-daemon
