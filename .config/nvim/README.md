@@ -29,13 +29,21 @@ git clone https://github.com/wbthomason/packer.nvim `
 
 ## 🚀 Getting Started
 
-Once Packer is installed, open Neovim and run:
+Once Packer is installed, open Neovim and source packer.lua file
+
+you can do that by opening the file and running the following command in Neovim:
+
+```vim
+:so
+```
+
+after that, run this command to install all plugins:
 
 ```vim
 :PackerSync
 ```
 
-Or use the shortcut (if defined in your config):
+Or use the shortcut which is defined in the config file:
 
 ```vim
 <leader>packer
