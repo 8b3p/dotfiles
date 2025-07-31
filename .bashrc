@@ -18,3 +18,4 @@ export NVM_DIR="$HOME/.nvm"
 export DISPLAY=:0
 export XDG_CURRENT_DESKTOP=Awesome
 export XDG_SESSION_TYPE=x11
+export PATH="$PATH:/opt/nvim/"
