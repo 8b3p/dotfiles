@@ -1,1 +1,39 @@
-i have to install tpm in root under ~/.tmux folder.
+# Tmux Configuration
+
+This repository contains custom configurations for `tmux` to enhance productivity and usability.
+
+## Prerequisites
+
+- `tmux` installed (version 2.1 or higher recommended)
+- `git` installed
+
+## Install TPM (Tmux Plugin Manager)
+
+To manage tmux plugins, you need to install [TPM](https://github.com/tmux-plugins/tpm).
+
+Clone TPM into your local tmux plugins directory:
+
+```bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+## Usage
+
+1. Add your desired plugins to `.tmux.conf` under the `set -g @plugin` section.
+2. Reload tmux environment:
+
+    ```bash
+    tmux source ~/.tmux.conf
+    ```
+
+3. Press `prefix` + I (capital i) to install the plugins.
+
+## Recommended Key Bindings
+
+- `<prefix> + I` — Install plugins
+- `<prefix> + U` — Update plugins
+- `<prefix> + Alt + u` — Uninstall unused plugins
+
+## License
+
+MIT
